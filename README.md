@@ -1,15 +1,15 @@
-Brunch with Jade, Stylus & CoffeeScript
+Brunch with handlebars, Stylus & CoffeeScript
 ===========================
 
-Super minimal brunch skeleton that includes jade and stylus plugins.
+Super minimal brunch skeleton that includes handlebars and stylus plugins.
 
-Forked from [brunch-jade-stylus](https://github.com/TessaHarmon/brunch-jade-stylus) with CoffeeScript added.
+Forked from [brunch-jade-stylus-coffeescript](https://github.com/KATT/brunch-jade-stylus-coffee) and replaced Jade with Handlebars.
 
 ## Languages
 
 - [CoffeeScript](http://coffeescript.org/)
 - [Stylus](http://learnboost.github.com/stylus/)
-- [Jade](http://jade-lang.com/)
+- [Handlebars](http://handlebarsjs.com/)
 
 ## Features
 
@@ -25,7 +25,7 @@ Forked from [brunch-jade-stylus](https://github.com/TessaHarmon/brunch-jade-styl
 ```bash
 mkdir <projectName>
 cd <projectName>
-brunch new gh:KATT/brunch-jade-stylus-coffee
+brunch new gh:KATT/brunch-handlebars-stylus-coffee
 npm install
 brunch w -s
 ```
